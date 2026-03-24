@@ -24,7 +24,12 @@ In timing diagram Q0 is changing as soon as the negative edge of clock pulse is 
 
 **Procedure**
 
-/* write all the steps invloved */
+Open Quartus Prime software and create a new project.
+Create a new Verilog HDL file and enter the 4-bit ripple counter program.
+Save the file and set the module as the top-level entity.
+Compile the design and check for syntax errors.
+Create a waveform file and apply clock and reset inputs for simulation.
+Run functional simulation and verify the output timing diagram with the counter truth table.
 
 **PROGRAM**
 ```
@@ -57,9 +62,10 @@ end
 endmodule
 ```
 **RTL LOGIC FOR 4 Bit Ripple Counter**:
-
+![image](https://github.com/VGSAIRAIMA/4-BIT-RIPPLE-COUNTER/blob/main/Screenshot%202026-03-24%20184240.png)
 
 **TIMING DIGRAMS FOR 4 Bit Ripple Counter**
+![image](https://github.com/VGSAIRAIMA/4-BIT-RIPPLE-COUNTER/blob/main/Screenshot%202026-03-24%20184411.png)
 
 **RESULTS**:Implemented  4 Bit Ripple Counter using verilog and validated their functionality using their functional tables.
 
